@@ -26,7 +26,7 @@ class QuickNotes : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 
             //code starts
-            var userName = intent.getStringExtra("userName")
+            var userName = intent.getStringExtra("first_Name")
             if(userName != ""){
                 binding.userName.text = userName
             }
